@@ -1,0 +1,25 @@
+{
+  "name": "cftp",
+  "version": "1.1.1",
+  "description": "Controlled Frame Transmission Protocol using TCP",
+  "main": "cftp.min.cjs",
+  "module": "cftp.min.mjs",
+  "types": "cftp.d.ts",
+  "exports": {
+    "require": "./cftp.min.cjs",
+    "import": "./cftp.min.mjs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NickgamingGIT/cftp"
+  },
+  "bugs": {
+    "url": "https://github.com/NickgamingGIT/cftp/issues"
+  },
+  "keywords": ["tcp", "protocol", "frame", "socket"],
+  "author": "Nicholas Thompson",
+  "license": "MIT"
+}
